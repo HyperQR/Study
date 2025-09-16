@@ -12,4 +12,12 @@ function Productinfo(){
 Greet("bob");
 Greet("mark")
 Productinfo()
-    
+
+
+function add(num1, num2){
+    let result = num1 + num2
+    console.log(`Answer is ${result}`)
+}
+add(45,10);
+
+
