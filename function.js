@@ -20,4 +20,16 @@ function add(num1, num2){
 }
 add(45,10);
 
+function fullName(firstName, lastName){
+ let full = firstName + " " + lastName
+ return full
+}
+
+fullName()
+
+let somename1 = fullName("Darpan", "Soma")
+console.log(fullName("Darpan", "Soma"))
+
+
+
 
