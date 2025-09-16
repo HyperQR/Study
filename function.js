@@ -30,6 +30,18 @@ fullName()
 let somename1 = fullName("Darpan", "Soma")
 console.log(fullName("Darpan", "Soma"))
 
+function CapitaliseSentence(sentence){
+    let firstLetter = sentence.charAt(0);
+    firstLetter = firstLetter.toUpperCase();
+    //console.log(firstLetter)
+    
+    let final = firstLetter + sentence.slice(1);
+    //console.log(final)
+    return final
+}
+
+let Capitalised = CapitaliseSentence("test sentence")
+console.log(Capitalised)
 
 
 
