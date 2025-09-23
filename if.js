@@ -32,3 +32,22 @@ if(choice == 1){
 }
 
 console.log("Program Ended")
+
+let correctUsername = "Admin";
+let correctPassword = "1234";
+let username = prompt("Enter username: ")
+let password = prompt("Enter password: ")
+
+if(username == correctUsername){
+    console.log("Correct username, continuing... ");
+    if(password == correctPassword){
+        console.log("Welcome Admin")
+    }else{
+        console.log("go way, incorrect password")
+    }
+
+}else{
+    console.log("Go away Goober, Wrong username")
+}
+
+console.log("End Program")
