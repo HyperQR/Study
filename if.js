@@ -20,3 +20,15 @@ if(a < 20){
      console.log("Less than 100")
 }
 
+
+let choice = prompt("1. Enter, 2.Exit. Choose: ")
+
+if(choice == 1){
+    console.log("Welcome In")
+} else if(choice == 2){
+    console.log("Goodbye")
+}else{
+    console.log("This option Doesnt exist")
+}
+
+console.log("Program Ended")
