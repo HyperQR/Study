@@ -28,15 +28,12 @@ while( count < num){
 
 // sir example 
 let amountOfLoops = Number(prompt("Enter amount of loops:"));
-
 let doneSoFar = 0;
+
 while(doneSoFar < amountOfLoops){
 console.log("Hi");
-
 // doneSoFar = doneSoFar + 1
-
 // doneSoFar += 1; up
-
 doneSoFar++;
 
 }
