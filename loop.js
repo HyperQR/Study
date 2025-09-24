@@ -1,4 +1,4 @@
-let count = 0;
+8let count = 0;
 
 while( count < 10){
     console.log(`Count is currently ${count}`)
@@ -43,6 +43,7 @@ for(let i = 0; i < 10; i++){
     console.log("It happens")
 }
 
-//for 
+
+//For loops: 1. Make variable for iterator. 2. Condition. 3. How to increment iterator
 
 
