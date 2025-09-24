@@ -18,3 +18,13 @@ while(choice == "y"){ //loop starts essentiall an if statement but rapoate
 } //block ends, code will go hack to Line s
 console.log(people);
 console.log("program end")
+
+let count = 0;
+let num = Number(prompt("enter the number: "))
+
+while( count < num){
+    console.log("Hi")
+    count = count + 1;
+}
+
+
