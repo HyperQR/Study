@@ -51,3 +51,12 @@ let people = ["Bob", "Big Bob", "Kayle"];
 for(let i = 0; i < people.length; i++){
     console.log(`person nr ${i} on the list: ${people[i]}`)
 }
+
+
+    let people = ["Bob", "Big Bob", "Kayle"];
+    
+    for(let person of people){
+        console.log(`- ${people}`)
+    }
+    
+//for 
