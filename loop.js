@@ -46,4 +46,8 @@ for(let i = 0; i < 10; i++){
 
 //For loops: 1. Make variable for iterator. 2. Condition. 3. How to increment iterator
 
+let people = ["Bob", "Big Bob", "Kayle"];
 
+for(let i = 0; i < people.length; i++){
+    console.log(`person nr ${i} on the list: ${people[i]}`)
+}
