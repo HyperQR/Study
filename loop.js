@@ -60,3 +60,30 @@ for(let i = 0; i < people.length; i++){
     }
     
 //for 
+
+//pt 1
+console.log("1.Start\n2.Menu\n3.Exit")
+let selected = false;
+let choice;
+while(selected == false){
+    choice = Number(prompt("Enter option: "))
+    if(choice >= 1 && choice <=3){
+        selected = true;
+    }else{
+        console.log("This option doesnt exist")
+    }
+}
+ //pt 2 
+function getInRange(text, min, max){
+    while(true){
+        let choice = Number(prompt(text))
+        if(choice >= min && choice <= max)
+            return choice;
+    }else{
+        console.log("This option doesnt exist")
+    }
+}
+
+getInRange("1.Start\n2.Menu\n3.Exit\n Enter option", 1, 3)
+
+
