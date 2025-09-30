@@ -42,3 +42,31 @@ while(prompt("Add a person: ") == "y"){
 }
 
 console.log(people)
+
+
+//second thing updated - with another loop
+
+function createPerson(){
+    let person = [];
+    person.name = prompt("Enter new name: ");
+    person.surname = prompt("Enter new surname: ");
+    person.age = parseInt(prompt("Enter new age: "));
+    
+    return person;
+}
+
+function DisplayPerson(person){
+    console.log(`${person.name}, ${person.surname} (${person.age})`)
+}
+
+
+let people = [];
+
+while(prompt("Add a person: ") == "y"){
+    let newPerson = createPerson();
+    people.push(newPerson)
+}
+
+for(let person of people){
+    DisplayPerson(person)
+}
