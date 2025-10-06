@@ -8,6 +8,7 @@ function handleRespone(response){
 if(response.ok() == false){
     throw new Error("Server response failed")
 }
+return response.json
 }
 //Handle the response
 function handleError(error){
