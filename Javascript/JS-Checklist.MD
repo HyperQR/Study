@@ -1,4 +1,4 @@
-# 🧠 JavaScript Learning Checklist — Darpan
+# 🧠 JavaScript Learning Checklist
 
 ## ✅ Completed Topics
 - [x] Variables (`let`, `const`, `var`)
